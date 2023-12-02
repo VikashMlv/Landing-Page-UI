@@ -1,0 +1,322 @@
+.earth-dite {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 10%;
+    color: #FFF;
+}
+
+.earth-dite h1 {
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buy-now {
+    display: inline-flex;
+    padding: 12px 60px;
+    align-items: center;
+    gap: 10px;
+}
+
+.earth-dite p {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 150% */
+}
+
+.liquid-fertilizer {
+    color: #000;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 140% */
+}
+
+.list-content ul {
+    color: #7F7F7F;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+
+.list-content ul li::before {
+    content: "\2022";
+    color: #FAA100;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.about-us {
+    color: #000;
+    font-family: Lato;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.read-more {
+    display: inline-flex;
+    padding: 12px 40px;
+    align-items: center;
+    gap: 10px;
+    background: #FAA100;
+    color: white;
+    border-radius: 10px;
+}
+
+image {
+    border-radius: 10px;
+}
+
+.testimonial {
+    color: #000;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #4B8F35;
+}
+
+.box1 p {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 175% */
+}
+
+.box1 .name {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box2 p {
+    color: #7F7F7F;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 175% */
+}
+
+.box2 .name {
+    color: #000;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.latest-news .col p {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    /* 162.5% */
+}
+
+.latest-news .col span {
+    color: #7F7F7F;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.latest-news .col h5 {
+    color: #4B8F35;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.question h3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer {
+    background: #493223;
+}
+
+
+.about-section {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 1rem;
+
+}
+
+.column-2 {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+        /* color: #3C3C3C;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; */
+    }
+
+    .about-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .column-2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .testimonial-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .latest-news {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bottom-image {
+        width: 100%;
+    }
+
+    .about-para {
+        width: 100%;
+    }
+
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 5.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: #3C3C3C;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media (max-width:768px) {
+
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem;
+        padding-left: 0rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .earth-dite {
+        position: absolute;
+        color: white;
+        top: 20%;
+        left: 10%;
+        color: #FFF;
+    }
+
+
+
+    .earth-dite h1 {
+        font-family: Lato;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .buy-now {
+        display: inline-flex;
+        padding: 12px 60px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .earth-dite p {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        /* 150% */
+    }
+
+    /* ends header */
+
+
+
+}
